@@ -1,0 +1,26 @@
+--- original
++++ modified
+@@ -114,6 +114,11 @@
+             </dependency>
+             <dependency>
+                 <groupId>org.eclipse.che</groupId>
++                <artifactId>ls-bayesian-agent</artifactId>
++                <version>${project.version}</version>
++            </dependency>
++            <dependency>
++                <groupId>org.eclipse.che</groupId>
+                 <artifactId>ls-csharp-agent</artifactId>
+                 <version>${project.version}</version>
+             </dependency>
+@@ -515,6 +520,11 @@
+             </dependency>
+             <dependency>
+                 <groupId>org.eclipse.che.plugin</groupId>
++                <artifactId>plugin-bayesian-lsp</artifactId>
++                <version>${che.version}</version>
++            </dependency>
++            <dependency>
++                <groupId>org.eclipse.che.plugin</groupId>
+                 <artifactId>che-plugin-composer-shared</artifactId>
+                 <version>${che.version}</version>
+             </dependency>

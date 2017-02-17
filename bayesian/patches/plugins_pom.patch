@@ -1,0 +1,22 @@
+--- original
++++ modified
+@@ -58,5 +58,19 @@
+         <module>plugin-testing-java</module>
+         <module>plugin-terminal-ui</module>
+         <module>plugin-requirejs</module>
++        <module>plugin-bayesian-lsp</module>
+     </modules>
++    <build>
++        <plugins>
++            <plugin>
++                <groupId>com.mycila</groupId>
++                <artifactId>license-maven-plugin</artifactId>
++                <configuration>
++                    <excludes>
++                        <exclude>**/pom.xml</exclude>
++                    </excludes>
++                </configuration>
++            </plugin>
++        </plugins>
++    </build>
+ </project>

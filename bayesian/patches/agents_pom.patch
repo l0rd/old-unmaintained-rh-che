@@ -1,0 +1,9 @@
+--- original
++++ modified
+@@ -35,5 +35,6 @@
+         <module>ls-python</module>
+         <module>ls-typescript</module>
+         <module>ls-csharp</module>
++        <module>ls-bayesian</module>
+     </modules>
+ </project>
