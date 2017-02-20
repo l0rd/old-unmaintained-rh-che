@@ -34,8 +34,8 @@ process_file() {
   # Use 
   #  - `apply_patch $FILE_PATH $PATCH_FILE_NAME` to patch Che 
   #  - `generate_patch_file $FILE_PATH $PATCH_FILE_NAME` to generate patches
-  apply_patch $FILE_PATH $PATCH_FILE_NAME
-  # generate_patch_file $FILE_PATH $PATCH_FILE_NAME
+  #apply_patch $FILE_PATH $PATCH_FILE_NAME
+  generate_patch_file $FILE_PATH $PATCH_FILE_NAME
 }
 
 # Copy plugin-bayesian-lsp folder
